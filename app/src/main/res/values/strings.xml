@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Exam Seat Arrangement System</string>
+
+    <string-array name="program_string">
+        <item>Day</item>
+        <item>Evening</item>
+    </string-array>
+
+    <string-array name="semester_string">
+        <item>Spring</item>
+        <item>Summer</item>
+        <item>Fall</item>
+    </string-array>
+
+    <string-array name="year_string">
+        <item>2020</item>
+    </string-array>
+
+    <string-array name="exam_string">
+        <item>Midterm Exam</item>
+        <item>Final Exam</item>
+    </string-array>
+
+    <string-array name="slotMidDay_string">
+        <item>Slot: A (10:00 AM - 11:30 AM)</item>
+        <item>Slot: B (12:30 PM - 02:00 PM)</item>
+        <item>Slot: C (03:00 PM - 04:30 PM)</item>
+    </string-array>
+
+    <string-array name="slotMidEve_string">
+        <item>Slot: D (06:00 PM - 07:30 PM)</item>
+    </string-array>
+
+    <string-array name="slotFinalDay_string">
+        <item>Slot: A (09:00 AM - 11:00 AM)</item>
+        <item>Slot: B (12:00 PM - 02:00 PM)</item>
+        <item>Slot: C (03:00 PM - 05:00 PM)</item>
+    </string-array>
+
+    <string-array name="slotFinalEve_string">
+        <item>Slot: D (06:00 PM - 08:00 PM)</item>
+    </string-array>
+
+    <string-array name="level_string">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+        <item>Level 4</item>
+    </string-array>
+
+    <string-array name="term_string">
+        <item>Term 1</item>
+        <item>Term 2</item>
+        <item>Term 3</item>
+    </string-array>
+
+</resources>

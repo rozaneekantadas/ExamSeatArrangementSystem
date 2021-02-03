@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_bg"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/sample_slot_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Slot"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_bg"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/sample_level_term"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Level Term"
+                android:textColor="#ffff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="15dp"
+                android:background="#ffff" />
+
+            <TextView
+                android:id="@+id/sample_courseName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Algorithms"
+                android:textColor="#ffff"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

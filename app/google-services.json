@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "283444523729",
+    "firebase_url": "https://examseatarrangementsystem.firebaseio.com",
+    "project_id": "examseatarrangementsystem",
+    "storage_bucket": "examseatarrangementsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283444523729:android:924743436af0d36bdf0bf0",
+        "android_client_info": {
+          "package_name": "com.suptodas.diu.examseatarrangementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283444523729-lt6dk3o7k94sthjef3ds1tlihhomp975.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGkNVXChdNqp8ApvWbLx7Tmd5EZXHgEyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283444523729-lt6dk3o7k94sthjef3ds1tlihhomp975.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

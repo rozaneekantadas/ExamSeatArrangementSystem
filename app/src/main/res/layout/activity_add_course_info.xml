@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".AddCourseInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/custom_bg"
+        >
+
+        <EditText
+            android:id="@+id/programNameId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:hint="Day or Evening"
+            android:textColor="#000"
+            android:textColorHint="#433F3F"
+            android:background="@drawable/toolbar_bg"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/levelTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:hint="Level Term(LT) or Batch"
+            android:textColor="#000"
+            android:textColorHint="#433F3F"
+            android:background="@drawable/toolbar_bg"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:hint="Code : Course Name"
+            android:textColor="#000"
+            android:textColorHint="#333131"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/toolbar_bg"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="40dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
